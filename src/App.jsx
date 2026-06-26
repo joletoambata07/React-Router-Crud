@@ -6,7 +6,7 @@ import PostDetails from "./pages/PostDetails.jsx";
 import About from "./pages/About.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import EditPost from "./pages/EditPost.jsx";
-import Navbar from "./components/NavBar.jsx";
+import Navbar from './components/Navbar.jsx';
 
 export default function App() {
   const [posts, setPosts] = useState(() => {
