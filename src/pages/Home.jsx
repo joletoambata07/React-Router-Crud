@@ -5,9 +5,7 @@ export default function Home({ posts, deletePost }) {
         <div className="min-h-screen bg-black text-white">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
                 <div className="flex justify-between items-center mb-8">
-                    <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-                        My Posts
-                    </h1>
+                    <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">My Posts</h1>
                     <Link
                         to="/create"
                         className="bg-white text-black px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition"
